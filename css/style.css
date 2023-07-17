@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #d66108;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -333,15 +333,15 @@
 
 .testimonial-carousel .owl-item .testimonial-text,
 .testimonial-carousel .owl-item.center .testimonial-text * {
-    transition: .5s;
+    transition: .2s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    /* border: 1px solid black !important; */
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
-    color: #FFFFFF !important;
+    /* color: #FFFFFF !important; */
 }
 
 .testimonial-carousel .owl-dots {
@@ -358,6 +358,7 @@
     width: 15px;
     height: 15px;
     border: 1px solid #CCCCCC;
+    border-radius: 50%;
     transition: .5s;
 }
 
@@ -431,4 +432,36 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.zoomIn h2{
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+    padding: 20px;
+}
+
+.float-start{
+    padding-top: 20px;
+}
+.float-start img{
+    width: 30px;
+    height: auto;
+}
+.shadow1:hover {
+    background-color: var(--primary);
+    transition: .5s;
+
+}
+.shadow1{
+    /* box-shadow: 1px 2px #d4d4d4;
+    
+    margin-bottom: 20px; */
+    cursor: pointer;
+}
+.pc img {
+    width: 280px;
+    height: 190px;
+    margin: 10px;
 }
