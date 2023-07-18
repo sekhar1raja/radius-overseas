@@ -1,0 +1,50 @@
+.container_registration{
+    text-align: center;
+    margin-top: 80px;
+    background-color: whitesmoke;
+}
+.container_registration label{
+
+}
+.registration_section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 0px 20px 250px;
+}
+.registration_section label{
+    width:auto !important;
+    text-align: start;
+}
+.registration_section input{
+    padding: 10px;
+    background-color: rgba(214, 223, 231, 1.0);
+    border: 1px solid #e5e5e5;
+    display: block;
+}
+.registration_section span{
+    color: red;
+}
+select{
+    padding: 9px;
+    background-color: rgba(214, 223, 231, 1.0);
+    border: 1px solid #e5e5e5;
+    display: block;
+}
+
+.submitColor {
+    padding: 10px 40px 10px 40px;
+}
+.submitColor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+}
+.header{
+    background-color: rgb(250, 130, 65);
+    padding:25px;
+    color: white;
+
+}
