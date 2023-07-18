@@ -86,5 +86,18 @@
 
     </div>
 </form>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    Email.send({
+    SecureToken : "a89d81c9-f178-4a16-88cb-989334ef5dcf",
+    To : 'sekharkoruprolu123@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "Radius Overseas education",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+</script>
 </body>
 </html>
