@@ -107,9 +107,7 @@
     
 })(jQuery);
 // Zoom Out an Zoom in //
-
-
-        // JavaScript code for gallery popup
+  // JavaScript code for gallery popup //
         const images = document.querySelectorAll('[data-target="img"]');
         const galleryPopup = document.getElementById('galleryPopup');
         const popupImage = document.getElementById('popupImage');

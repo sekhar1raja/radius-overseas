@@ -473,6 +473,7 @@
     width: 280px;
     height: 190px;
     margin: 10px;
+    cursor: zoom-in;
 }
 
 /* .container_registration input{
