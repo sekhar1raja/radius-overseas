@@ -106,4 +106,25 @@
     });
     
 })(jQuery);
+// Zoom Out an Zoom in //
 
+
+        // JavaScript code for gallery popup
+        const images = document.querySelectorAll('[data-target="img"]');
+        const galleryPopup = document.getElementById('galleryPopup');
+        const popupImage = document.getElementById('popupImage');
+
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                const imgSrc = image.getAttribute('src');
+                popupImage.setAttribute('src', imgSrc);
+                galleryPopup.style.display = 'flex';
+            });
+        });
+
+        galleryPopup.addEventListener('click', (event) => {
+            if (event.target === galleryPopup) {
+                galleryPopup.style.display = 'none';
+            }
+        });
+    

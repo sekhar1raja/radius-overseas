@@ -32,7 +32,7 @@
     <link href="css/registration.css" rel="stylesheet">
 </head>
 <body>
-    <form action="https://formsubmit.io/send/sekharkoruprolu123@gmail.com" method="POST">
+    <form action="https://formsubmit.io/send/lahimali@mailgolem.com" method="POST">
     <div class="container container_registration">
         <div class="header">
             <h1>Book  Free Counselling  </h1>
@@ -40,19 +40,19 @@
         </div>
         <div class="registration_section">
             <label class="first_name">First Name <span>*</span></label>
-            <input type="text w3-border" id="first_name" name="firstname" placeholder="Enter your first name" required>
+            <input type="text w3-border" id="first_name" placeholder="Enter your first name" required>
         </div>
         <div class="registration_section">
             <label class="Last_name">Last Name <span>*</span></label>
-            <input type="text w3-border" id="Last_name" name="lastname" placeholder="Enter your Last name" required>
+            <input type="text w3-border" id="Last_name" placeholder="Enter your Last name" required>
         </div>
         <div class="registration_section">
             <label class="Phone_number">Phone Number<span>*</span></label>
-            <input type="number w3-border" id="Phone_number" name="number" placeholder="Phone Number" required>
+            <input type="number w3-border" id="Phone_number" placeholder="Phone Number" required>
         </div>
         <div class="registration_section">
-            <label class="email" > Email <span>*</span></label>
-            <input type="email w3-border" id="email_number"value="email" name="email" placeholder="Email" required>
+            <label class="email"> Email <span>*</span></label>
+            <input type="email w3-border" id="email_number" placeholder="Email" required>
         </div>
         <div class="registration_section">
             <label for="Country">Choose a Country <span>*</span></label>
@@ -68,12 +68,12 @@
         <div class="registration_section">
             <label>Your qualification, year of pass and percentage of marks? <span>*</span>
             </label>
-            <input type="text w3-border" name="marks" value="marks" id="marks">
+            <input type="text w3-border">
         </div>
         <div class="registration_section">
             <label>Have you taken IELTS/PTE/TOEFL/GRE/DUOLINGO? If yes, please mention the score <span>*</span>
             </label>
-            <input type="text w3-border" name="score" value="score" id="score">
+            <input type="text w3-border">
         </div>
         <div class="registration_section">
             <label>Experience if any, explain brief <span>*</span>
@@ -81,23 +81,10 @@
             <input type="text w3-border">
         </div>
         <div class="registration_section">
-           <button class="btn btn-primary  submitColor">Submit</button>
+           <button class="btn btn-primary" type="submit">Submit</button>
         </div>
 
     </div>
 </form>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script>
-    Email.send({
-    SecureToken : "a89d81c9-f178-4a16-88cb-989334ef5dcf",
-    To : 'lahimali@mailgolem.com',
-    From : document.getElementById("email").value,
-    Subject : "Radius Overseas education",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-</script>
 </body>
 </html>
